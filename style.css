@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
     }
 
 header {
@@ -21,7 +22,7 @@ header {
 
 .header-logo {
     font-size: 24px;
-    color: #f8f1f8;
+    color: #f9faf8;
     font-weight: bold;
     padding: 16px 8px;
 }
@@ -41,4 +42,43 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.left-hero {
+    margin: 48px;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 4px 8px;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+.btn-hero {
+    font-size: 18px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-style: none;
+    border-radius: 2%;
+    padding: 16px 32px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
