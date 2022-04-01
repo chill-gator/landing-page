@@ -1,9 +1,9 @@
 body {
-    viewport-fit: 100vh;
+    viewport-fit:   100vh;
     margin: 0;
-    display: flex;
+    display:    flex;
     flex-direction: column;
-    font-family: 'Raleway', sans-serif;
+    font-family:    'Raleway',  sans-serif;
     }
 
 header {
@@ -77,8 +77,51 @@ a {
 }
 
 img {
-    width: 500px;
+    width:  500px;
     height: 300px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left:    48px;
+    margin-right:   48px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 48px;
+}
+
+.second-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+figure img {
+    width:  150px;
+    height: 150px;
+    border: #3882f6 4px solid;
+    border-radius: 10%;
+}
+
+figcaption {
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
 }
