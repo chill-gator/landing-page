@@ -72,8 +72,8 @@ a {
     background-color: #3882f6;
     color:#f9faf8;
     border-style: none;
-    border-radius: 2%;
-    padding: 16px 32px;
+    border-radius: 5%;
+    padding: 8px 32px;
 }
 
 img {
@@ -124,4 +124,29 @@ figcaption {
     align-items: center;
     gap: 8px;
     margin: 0;
+}
+
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+    padding: 72px;
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote-maker {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
 }
