@@ -206,3 +206,14 @@ input {
     align-items: center;
     gap: 16px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 24px;
+    margin: 0;
+}
