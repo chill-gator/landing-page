@@ -72,7 +72,7 @@ a {
     background-color: #3882f6;
     color:#f9faf8;
     border-style: none;
-    border-radius: 5%;
+    border-radius: 30px;
     padding: 8px 32px;
 }
 
@@ -149,4 +149,60 @@ figcaption {
     font-size: 24px;
     font-weight: bolder;
     font-style: normal;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+    margin: 0;
+}
+
+.bluebox {
+    color: #f9faf8;
+    background-color:#3882f6;
+    font-size: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+    flex: 1;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    border-radius:  2%;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 5px solid #f9faf8;
+    font-family: inherit;
+    text-align: center;
+    outline: none;
+}
+
+::placeholder {
+    color: #f9faf8;
+    text-align: center;
+}
+
+.sub-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 5px solid #f9faf8;
+    text-align: center;
+    font-family: inherit;
+}
+
+.column-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
